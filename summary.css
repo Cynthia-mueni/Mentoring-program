@@ -5,6 +5,7 @@ h1{
 }
 .born{
     margin-left: 30%;
+    font-style: italic;
 
 
 }
@@ -12,4 +13,7 @@ p{
     font-size: 20px;
     font-style:italic;
     
+}
+.chapter{
+    background-color: rgb(224, 247, 247);
 }
