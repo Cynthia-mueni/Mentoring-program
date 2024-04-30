@@ -3,14 +3,17 @@ body {
   color: #fff;
   font-family: Arial, sans-serif;
 }
+.navbar{
+    font-weight: 800;
+    justify-content: space-around;
+      display: flex;
+      font-size: 20px;
+      align-items: center;
+  }
+  #logo {
+    width: 40%;
+  }
 
-ul {
-  display: flex;
-  gap: 10%;
-  margin-left: 10%;
-  white-space: nowrap;
-  font-size: 20px;
-}
 
 li {
   list-style: none;
@@ -20,12 +23,6 @@ a {
   text-decoration: none;
 }
 
-#logo {
-  width: 5%;
-}
-.logos {
-  display: flex;
-}
 #landphoto {
   border-radius: 90%;
   margin-left: 10%;
@@ -35,7 +32,12 @@ a {
 h1{
     font-size: 20px;
 }
-#footer{
+.thefooter{
+    margin-left: 10%;
+    display: flex;
+    gap: 120%;
+}
+footer{
     display: flex;
     gap: 20%;
     background-color: rgb(56, 51, 51);

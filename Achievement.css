@@ -2,13 +2,16 @@ body{
     background-color:black;
     color: #fff;
 }
-ul{
-    display: flex;
-    gap: 16%;
-    margin-left: 10%;
-    white-space: nowrap;
-    font-size: 20px;
-}
+.navbar{
+    font-weight: 800;
+    justify-content: space-around;
+      display: flex;
+      font-size: 20px;
+      align-items: center;
+  }
+  #logo {
+    width: 40%;
+  }
 li{
     list-style: none;
 }
@@ -32,7 +35,7 @@ ol{
     font-size: 20px;
 }
 .Logo{
-border: solid 5px;
+/* border: solid 5px; */
 padding: 50px;
 }
 .image{
@@ -43,10 +46,17 @@ padding: 50px;
 body {
     font-family: Arial, sans-serif;
 }
-#footer{
+.thefooter{
+    margin-left: 10%;
+    display: flex;
+    gap: 120%;
+}
+footer{
     display: flex;
     gap: 20%;
     background-color: rgb(56, 51, 51);
+    margin-top: 15%;
+    margin-right: 10%;
 
 }
 
